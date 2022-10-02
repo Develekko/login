@@ -36,6 +36,7 @@ function register()
     if(validation() == true)
     {
       inCorrect.style.display = "none";
+      regexError.style.display = "none";
       userEmail.classList.remove("inputError");
       users.push(user);
       localStorage.setItem("users",JSON.stringify(users))
@@ -60,7 +61,6 @@ function register()
     {
       regexError.innerHTML = `Invaild Email Address Try : example@domain.com`;
       inCorrect.style.display = "none";
-      console.log("error");
     }
 
   }
