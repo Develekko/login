@@ -59,6 +59,8 @@ function register()
     else
     {
       regexError.innerHTML = `Invaild Email Address Try : example@domain.com`;
+      inCorrect.style.display = "none";
+      console.log("error");
     }
 
   }
