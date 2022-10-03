@@ -9,12 +9,13 @@
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
   <link rel="stylesheet" href="assets/css/style_index.css">
 </head>
 
 <body>
 
-  <div id="notification" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div id="notification" class="toast animate__animated animate__pulse" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-body text-center notf-border position-relative ">
       <span></span>
       <span></span>
@@ -24,9 +25,9 @@
     </div>
 </div>
 
-  <section class="container my-5">
+  <section class="container my-5 animate__animated animate__fadeInDown">
     <div class="box p-5 w-75 mx-auto text-center">
-      <h1>Sign Up</h1>
+      <h1 class="ml12">Sign Up</h1>
       <input id="userName" type="text" class="form-control rounded-1 my-3" placeholder="Enter your name">
       <input id="userEmail" type="email" class="form-control rounded-1 my-3" placeholder="Enter your email">
       <span id="regexError"></span>
@@ -39,6 +40,7 @@
 
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/text-animate.js"></script>
   <script src="assets/js/signup.js"></script>
 </body>
 

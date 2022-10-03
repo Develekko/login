@@ -7,25 +7,16 @@
     content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
   <title>Login</title>
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style_index.css">
 </head>
 
 <body>
-  <div class="toast-container position-fixed top-0 end-0 p-3">
-    <div id="basicToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header bg-primary text-light">
-        <h5 class="my-0">Join Our Company</h5>
-      </div>
-      <div class="toast-body">
-        <strong>Mind Numbing Products</strong> is a force in the manufacturing and production market. Our motto is If it’s not Mind Numbing, it’s not worth it.
-      </div>
-    </div>  
-  </div>
-  <section class="container my-5">
+  <section class="container my-5 animate__animated animate__fadeInDown">
     <div class="box p-5 w-75 mx-auto text-center">
-      <h1>Smart Login System</h1>
+      <h1 class="ml12">Smart Login System</h1>
       <input id="userEmail" type="email" class="form-control rounded-1 my-3" placeholder="Enter your email">
       <input id="userPassword" type="password" class="form-control rounded-1 my-3" placeholder="Enter your password">
       <span id="incorrect"></span>
@@ -38,6 +29,7 @@
 
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/text-animate.js"></script>
   <script src="assets/js/login.js"></script>
 </body>
 

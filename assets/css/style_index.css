@@ -20,7 +20,25 @@ body
 }
 h1
 {
-    color: var(--primary-color);
+	color: var(--primary-color);
+}
+
+
+@keyframes animate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes text {
+  from{
+	filter: hue-rotate(0deg);
+  }
+  to{
+	filter: hue-rotate(360deg);
+  }
 }
 input
 {
@@ -199,3 +217,4 @@ nav
         visibility:visible
 	}
 }
+
