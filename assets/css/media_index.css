@@ -1,0 +1,35 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    h1
+   {
+    font-size: 25px;
+    margin-bottom: 3rem;
+   }
+   .main .box
+   {
+    width: 100%!important;
+   }
+   html
+   {
+    overflow-x: hidden;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+    h1
+    {
+     font-size: 25px;
+     margin-bottom: 3rem;
+    }
+    .main .box
+    {
+     width: 100%!important;
+    }
+    html
+    {
+     overflow-x: hidden;
+    }
+}
