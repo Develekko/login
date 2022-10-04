@@ -62,7 +62,7 @@ function register()
     else
     {
       regexError.innerHTML = `Invaild Email Address Try : example@domain.com`;
-      inCorrect.classList.add("animate__animated","animate__flash");
+      regexError.classList.add("animate__animated","animate__flash");
       inCorrect.style.display = "none";
     }
 
@@ -90,7 +90,7 @@ function clearInputs()
 function checkIfEmailExist()
 {
   for (var i = 0; i < users.length; i++) {
-    if (userEmail.value == (users[i].email)) {
+    if (userEmail.value.toLowerCase() == (users[i].email.toLowerCase())) {
       return true
     }
   }

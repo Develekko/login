@@ -38,17 +38,6 @@ function logout() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //From https://tobiasahlin.com/
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml12');
@@ -61,7 +50,7 @@ anime.timeline({loop: false})
     translateZ: 0,
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 1000,
+    duration: 1500,
     delay: (el, i) => 1000 + 30 * i})
 
 

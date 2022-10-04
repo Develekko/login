@@ -33,7 +33,7 @@ function log ()
     for(var i = 0 ; i<users.length ; i++)
     {
       if 
-      (users[i].email == email && users[i].password == password){
+      (users[i].email.toLowerCase() == email.toLowerCase() && users[i].password == password){
       localStorage.setItem('activeSession', users[i].name)
       window.location="home.html";
       inCorrect.style.display = "none";
